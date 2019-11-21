@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Profile from './Profile.js'
+import SkillWheel from './SkillWheel.js'
+import SkillComp from './SkillComp.js'
+import Projects from './Projects.js'
+import ProjectPiece from './ProjectPiece.js'
+import Navbar from './Navbar.js'
+import NavLink from './NavLink.js'
+import { directive } from '@babel/types';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Profile />
+      <SkillWheel />
+      <Projects />
     </div>
   );
 }
