@@ -6,6 +6,7 @@ export default class NavLink extends Component {
       <div className='navLink'>
         <a href={this.props.source}>
           <img src={this.props.icon} />
+          <p>{this.props.name}</p>
         </a>
       </div>
     )

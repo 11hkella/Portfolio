@@ -30,6 +30,7 @@ export default class Navbar extends Component {
         {linkInfo.map((info, i) => {
           return (
             <NavLink
+              name={info.name}
               source={info.source}
               icon={info.icon}
               key={i} />)
