@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import NavLink from './NavLink'
 
+import './Navbar.css'
+
 export default class Navbar extends Component {
   render() {
     const linkInfo = [
