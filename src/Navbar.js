@@ -9,22 +9,22 @@ export default class Navbar extends Component {
       {
         name: 'LinkedIn',
         source: 'http://linkedin.com/in/henry-kellam',
-        icon: ''
+        icon: '/icons/linked_in.png'
       },
       {
         name: 'GitHub',
         source: 'https://github.com/11hkella',
-        icon: ''
+        icon: '/icons/github.png'
       },
       {
         name: 'Resume',
         source: '',
-        icon: ''
+        icon: '/icons/resume.png'
       },
       {
         name: 'Email',
         source: '',
-        icon: ''
+        icon: '/icons/email-24px.svg'
       }
     ]
     return (

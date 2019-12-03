@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 
+import './NavLink.css'
+
+
 export default class NavLink extends Component {
+
     render() {
         return (
             <div className='navLink'>
@@ -8,7 +12,7 @@ export default class NavLink extends Component {
                     target='blank'>
                     <img src={this.props.icon}
                         alt={this.props.name} />
-                    <p>{this.props.name}</p>
+                    {/* <p>{this.props.name}</p> */}
                 </a>
             </div>
         )
