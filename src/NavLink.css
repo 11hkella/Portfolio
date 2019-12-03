@@ -3,3 +3,9 @@
     width: 30px;
     margin: 0 10px;
 }
+
+.navLink img:hover{
+    transform: scale(1.1, 1.1);
+    position: relative;
+    top: 2px;
+}
