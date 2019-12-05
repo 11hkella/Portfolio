@@ -1,15 +1,17 @@
 import React, { Component } from 'react'
 
+import ProjectPiece from './ProjectPiece.js'
+
 export default class Projects extends Component {
   render() {
     return (
-      <div>
+      <div className='project-container'>
         <h1>Projects</h1>
-        <ul>
-          <li>Flowstate</li>
-          <li>B-side</li>
-          <li>Wheel of Chores</li>
-        </ul>
+
+        <ProjectPiece
+          source='images/Flowstate.png'
+          title='Flowstate'
+          technologies={['html5', 'css', 'javascript']} />
       </div>
     )
   }
