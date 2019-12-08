@@ -10,8 +10,8 @@ const CarouselContainer = styled.div`
         'transform 1s ease'};
 
     transform: ${(props) => {
-        if (!props.sliding) return 'translateX(calc(-50% - 20px))'
-        if (props.direction === 'prev') return 'translateX(calc(2 * (-50% - 20px)))'
+        if (!props.sliding) return 'translateX(calc(-80% - 20px))'
+        if (props.direction === 'prev') return 'translateX(calc(2 * (-80% - 20px)))'
         return 'translateX(0%)'
     }}
 `
@@ -26,7 +26,7 @@ const Wrapper = styled.div`
 `
 
 const CarouselSlot = styled.div`
-    flex: 1 0 50%;
+    flex: 1 0 80%;
     order: ${(props) => props.order}
 `
 
@@ -107,17 +107,17 @@ export default class Carousel extends Component {
 
                     </CarouselContainer>
                 </Wrapper>
-                {/* <img
-                    src='/svg/keyboard_arrow_left-24px.svg'
+                <img
+                    src='/icons/keyboard_arrow_left-24px.svg'
                     alt='back'
                     className='slider prev'
                     onClick={this.prevSlide} />
 
                 <img
-                    src='/svg/keyboard_arrow_right-24px.svg'
+                    src='/icons/keyboard_arrow_right-24px.svg'
                     alt='next'
                     className='slider next'
-                    onClick={this.nextSlide} /> */}
+                    onClick={this.nextSlide} />
 
             </div >
         )

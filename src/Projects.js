@@ -3,6 +3,9 @@ import React, { Component } from 'react'
 import ProjectPiece from './ProjectPiece.js'
 import Carousel from './Carousel.js'
 
+import './Projects.css'
+
+
 export default class Projects extends Component {
   render() {
     return (

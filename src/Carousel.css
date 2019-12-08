@@ -1,5 +1,5 @@
 .carousel-wrapper .slider{
-    position: absolute;
+    position: relative;
     width: 60px;
     height: 60px;
     transition: transform 100ms ease-in-out;
