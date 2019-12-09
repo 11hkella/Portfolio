@@ -44,6 +44,10 @@
 
 }
 
+.card-back p{
+    margin: 10px 20px;
+}
+
 .tech-stack{
     width: 80%;
     margin: 0 auto;
@@ -53,5 +57,18 @@
 }
 
 .card-back .link-container{
-    background-color: rgba(255, 255, 255, 0.459);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-back .link-container a{
+    background-color: white;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
 }

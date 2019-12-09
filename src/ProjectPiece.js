@@ -38,9 +38,16 @@ export default class ProjectPiece extends Component {
                         </div>
 
                         <div className='link-container'>
-                            <a href=''>
+                            <a href={this.props.ghLink}
+                                target='blank'>
                                 <img
                                     src='/icons/github.png'
+                                    alt='github' />
+                            </a>
+                            <a href={this.props.webLink}
+                                target='blank'>
+                                <img
+                                    src='/icons/link-24px.svg'
                                     alt='github' />
                             </a>
                         </div>
