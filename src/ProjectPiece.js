@@ -7,28 +7,26 @@ export default class ProjectPiece extends Component {
     render() {
         const style = {
             background: `url(${this.props.source})`,
-            backgroundSize: 'contain',
+            backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
-
-
         }
 
         return (
-            <div className='project-piece-container'
-                style={style} >
+            <div className='project-piece-container' >
 
-                {/* <img src={this.props.source} alt='website example' /> */}
+                <img src={this.props.source} alt='project' />
 
-                < h3 > {this.props.title}</h3>
+                <div className='info-container'>
 
-                <p>technologies:</p>
-                {
-                    this.props.technologies.map((tech, i) => {
-                        return <span className='tech-used' key={i}>
-                            . {tech} .
-            </span>
-                    })
-                }
+                    < h3 > {this.props.title}</h3>
+
+                    {
+                        this.props.technologies.map((tech, i) => {
+                            return <span className='tech-used' key={i}>
+                                . {tech} .</span>
+                        })
+                    }
+                </div>
 
             </div >
         )

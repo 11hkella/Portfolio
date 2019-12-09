@@ -5,7 +5,7 @@ import './Carousel.css'
 
 const CarouselContainer = styled.div`
     display: flex;
-    margin: 0 0 20px 20px;
+    // margin: 0 0 20px 20px;
     transition: ${(props) => props.sliding ? 'none' :
         'transform 1s ease'};
 
@@ -27,6 +27,7 @@ const Wrapper = styled.div`
 
 const CarouselSlot = styled.div`
     flex: 1 0 80%;
+    justify-content: center;
     order: ${(props) => props.order}
 `
 
