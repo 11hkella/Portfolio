@@ -22,13 +22,28 @@ export default class ProjectPiece extends Component {
 
 
                     <div className='card-back'>
-                        < h3 > {this.props.title}</h3>
+                        < p className='description'>
+                            <span>{this.props.title}</span>{this.props.description}
+                        </p>
 
-                        {this.props.technologies.map((tech, i) => {
-                            return <span className='tech-used' key={i}>
-                                . {tech} .</span>
-                        })
-                        }
+                        <div className='tech-stack'>
+                            {this.props.technologies.map((tech, i) => {
+                                return <span
+                                    className='tech-used'
+                                    key={i}>
+                                    {tech}
+                                </span>
+                            })
+                            }
+                        </div>
+
+                        <div className='link-container'>
+                            <a href=''>
+                                <img
+                                    src='/icons/github.png'
+                                    alt='github' />
+                            </a>
+                        </div>
                     </div>
 
 
