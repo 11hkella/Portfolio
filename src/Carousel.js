@@ -27,7 +27,6 @@ const Wrapper = styled.div`
 
 const CarouselSlot = styled.div`
     flex: 1 0 80%;
-    justify-content: center;
     order: ${(props) => props.order}
 `
 
