@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 
-import Profile from './Profile.js'
+import './Hero.css'
 
 
 export default class Hero extends Component {
     render() {
         return (
-            <div>
-                <h1>Cool Hero goes Here</h1>
-                <Profile />
+            <div className='hero-container'>
+                <h1>Henry Kellam</h1>
+                <h3>Software Developer, Musician, Collaborator</h3>
             </div>
         )
     }
