@@ -7,5 +7,13 @@
     align-items: center;
     background-color: royalblue;
     color: white;
-    margin: 0 auto;
+    margin: 10px;
+}
+
+.all-skills-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 20px 60px 20px;
 }

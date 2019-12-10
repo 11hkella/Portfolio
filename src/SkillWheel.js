@@ -10,12 +10,13 @@ export default class SkillWheel extends Component {
   state = {
     skills: [
       'React',
+      'Node.js',
       'CSS',
-      'SQL',
-      'MongoDB',
+      'HTML5',
       'Python',
+      'MongoDB',
+      'PostgreSQL',
       'Django',
-      'Javascript'
     ],
   }
 

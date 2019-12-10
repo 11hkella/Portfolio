@@ -2,7 +2,20 @@
     height: 100vh;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* background-image: url('/images/spray-paint.png'); */
+    background-image: url('https://media.giphy.com/media/3kuPC4N7ojo6zq6lQW/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center bottom;
+    border-bottom: 2px solid #131313e3;
+}
+
+.hero-container h1, h3{
+    text-shadow: rgb(14, 160, 245) 1px 1px;
+}
+
+.hero-container .title{
+
 }
