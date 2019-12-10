@@ -2,9 +2,10 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-color: red;
+    background-color: #09e6d3;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 10px;
+    margin: 10px;
+    border: 4px double black;
 }

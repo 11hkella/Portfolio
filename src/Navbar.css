@@ -1,9 +1,9 @@
 .navbar{
     position: fixed;
-    top:6px;
+    top:12px;
     left: 20px;
-    height: 40px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #ffffffad;

@@ -22,16 +22,20 @@ export default class SkillWheel extends Component {
 
   render() {
     return (
-      <div className='all-skills-conatiner'>
+      <div className='skill-container'>
+
         <div className='title'>
           <h1>Skills</h1>
         </div>
 
-        {this.state.skills.map((skill, i) => {
-          return <SkillComp
-            title={skill}
-            key={i} />
-        })}
+        <div className='all-skills-conatiner'>
+          {this.state.skills.map((skill, i) => {
+            return <SkillComp
+              title={skill}
+              multiplier={i}
+              key={i} />
+          })}
+        </div>
 
       </div>
     )
