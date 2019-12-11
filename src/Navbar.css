@@ -8,4 +8,5 @@
     align-items: center;
     background: #ffffffad;
     border-radius: 6px;
+    z-index: 1;
 }
