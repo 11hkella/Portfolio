@@ -25,7 +25,7 @@ export default class SkillWheel extends Component {
       <div className='skill-container'>
 
         <div className='title'>
-          <h1>Skills</h1>
+          <h1>Skills...</h1>
         </div>
 
         <div className='all-skills-conatiner'>

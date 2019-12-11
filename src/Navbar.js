@@ -18,7 +18,7 @@ export default class Navbar extends Component {
       },
       {
         name: 'Resume',
-        source: '',
+        source: '/Resume.pdf',
         icon: '/icons/resume.png'
       },
       {

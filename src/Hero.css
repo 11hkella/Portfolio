@@ -16,16 +16,19 @@
     text-shadow: #1111119d -3px 3px;
     color: #f5f2e6;
     margin:0;
+    letter-spacing: -2px;
 }
 
 .hero-container h1{
-    font-size: 50px;
+    font-size: 54px;
 }
 
 .hero-container h3{
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .hero-container .title{
-    margin: 52px 60px;
+    position: relative;
+    left: 8%;
+    bottom: 6%;
 }

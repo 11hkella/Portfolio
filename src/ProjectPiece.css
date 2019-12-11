@@ -36,8 +36,8 @@
 }
 
 .card-back img{
-    width: 40px;
-    height: 40px;
+    width: 54px;
+    height: 54px;
 }
 
 .card-back{
@@ -56,7 +56,7 @@
     text-align: left;
     padding: 0 20px;
     line-height: 32px;
-    font-size: 16px;
+    font-size: 20px;
 }
 .description span{
     font-weight: 700;
@@ -71,7 +71,8 @@
     padding: 20px 0;
     background-color: #32df89ea;
     font-weight: 800;
-    text-shadow: black -1px 1px;
+    text-shadow: #030303af -2px 2px;
+    font-size: 24px;
 }
 
 .card-back .link-container{
@@ -83,8 +84,7 @@
 .card-back .link-container a{
     background-color: white;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    padding: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
