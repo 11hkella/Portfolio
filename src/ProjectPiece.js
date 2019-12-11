@@ -4,13 +4,8 @@ import './ProjectPiece.css'
 
 
 export default class ProjectPiece extends Component {
-    render() {
-        const style = {
-            background: `url(${this.props.source})`,
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-        }
 
+    render() {
         return (
             <div className='project-piece-container' >
                 <div className='flip-card'>

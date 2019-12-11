@@ -2,9 +2,8 @@
     height: 100vh;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: flex-end;
-    /* background-image: url('/images/spray-paint.png'); */
     background-image: url('https://media.giphy.com/media/3kuPC4N7ojo6zq6lQW/giphy.gif');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -13,9 +12,20 @@
 }
 
 .hero-container h1, h3{
-    text-shadow: rgb(14, 160, 245) 1px 1px;
+    text-align: left;
+    text-shadow: #1111119d -3px 3px;
+    color: #f5f2e6;
+    margin:0;
+}
+
+.hero-container h1{
+    font-size: 50px;
+}
+
+.hero-container h3{
+    font-size: 30px;
 }
 
 .hero-container .title{
-
+    margin: 52px 60px;
 }
