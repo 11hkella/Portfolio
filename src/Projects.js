@@ -44,7 +44,7 @@ export default class Projects extends Component {
                         title='EmojiCam'
                         description=' is a video app that uses facial recognition and expression detection to automatically map various emojis to user&apos;s faces.'
                         technologies={['PostgreSQL', 'Django', 'Node', 'React']}
-                        ghLink=''
+                        ghLink='https://github.com/11hkella/EmojiCam'
                         webLink='' />
 
                 </div >
