@@ -23,7 +23,7 @@ export default class Navbar extends Component {
       },
       {
         name: 'Email',
-        source: '',
+        source: 'mailto:henry.a.kellam@gmail.com',
         icon: '/icons/email-24px.svg'
       }
     ]
