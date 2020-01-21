@@ -8,27 +8,36 @@
     letter-spacing: .6em;
 }
 .about-me-container {
+    width: 100vw;
     padding: 2em 0;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    flex-direction: column;
 }
 .about-me-container .profile-pic{
     border-radius: 50%;
     border: .2em solid #131313e3;
     width: 14em;
-    margin: 3em 2em;
+    margin: 1em 0 1.4em 0;
+}
+.about-me-container .animate-wrapper{
+    display: flex;
+    justify-content: center;
 }
 .about-me-container .wrapper{
     width: 65%;
-    transform: skew(-18deg);
+    transform: skew(-14deg);
     background-color: #61cdf7a8;
     border: .3em double #131313e3;
-    margin: 2em 2em;
+    margin: 0;
+}
+.about-me-container .about span{
+    font-weight: 500;
 }
 .about-me-container .about{
     margin: 1em 2.2em;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.4em;
     text-align: left;
     line-height: 1.3em;
