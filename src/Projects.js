@@ -25,7 +25,7 @@ export default class Projects extends Component {
                         source='images/WheelOfChores.png'
                         title='Wheel of Chores'
                         description=' is a scheduling app that helps groups of users assign and accomplish tasks.'
-                        technologies={['MongoDB', 'Mongoose', 'Node', 'Handelbars']}
+                        technologies={['MongoDB', 'Express', 'Handelbars', 'Node']}
                         ghLink='https://github.com/11hkella/Wheel-of-Chores'
                         webLink='https://wheel-of-chores.herokuapp.com/wheel' />
 
@@ -35,7 +35,7 @@ export default class Projects extends Component {
                         source='images/SideB.png'
                         title='Side B'
                         description=' is music reviewing app that allows users to post opinion pieces about their favorite albums, songs, or artists. Write a review yourself, or engauge in a dialogue over the music you are passionate about.'
-                        technologies={['MongoDB', 'Mongoose', 'Node', 'React']}
+                        technologies={['MongoDB', 'Express', 'React', 'Node']}
                         ghLink='https://github.com/11hkella/B-side'
                         webLink='https://b-side-review.herokuapp.com/' />
 
@@ -43,7 +43,7 @@ export default class Projects extends Component {
                         source='images/EmojiCam.png'
                         title='EmojiCam'
                         description=' is a video app that uses facial recognition and expression detection to automatically map various emojis to user&apos;s faces.'
-                        technologies={['PostgreSQL', 'Django', 'Node', 'React']}
+                        technologies={['PostgreSQL', 'Django', 'React', 'Node']}
                         ghLink='https://github.com/11hkella/EmojiCam'
                         webLink='https://master.dewt15ge7jmum.amplifyapp.com/' />
 
