@@ -1,11 +1,11 @@
 .skill-comp-container{
-    width: 150px;
-    height: 150px;
+    width: 10em;
+    height: 10em;
     border-radius: 50%;
     background-color: #09e6d3;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
-    border: 4px double black;
+    margin: 3em;
+    border: .3em double #131313e3;
 }

@@ -7,11 +7,9 @@ import 'animate.css/animate.min.css'
 
 export default class SkillComp extends Component {
   render() {
-    const delay = this.props.multiplier * 100
     return (
       <ScrollAnimation
-        animateIn="fadeIn"
-        delay={delay} >
+        animateIn="fadeIn">
         <div className='skill-comp-container'>
 
           <h2>{this.props.title}</h2>
