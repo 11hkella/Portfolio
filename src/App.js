@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 
-import SkillWheel from './SkillWheel.js'
-import Projects from './Projects.js'
-import Navbar from './Navbar.js'
-import Hero from './Hero.js'
-import AboutMe from './AboutMe.js'
+import SkillWheel from './components/SkillWheel.js'
+import Projects from './components/Projects.js'
+import Navbar from './components/Navbar.js'
+import Hero from './components/Hero.js'
+import AboutMe from './components/AboutMe.js'
 
 
 function App() {
