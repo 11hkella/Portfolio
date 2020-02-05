@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import ScrollAnimation from 'react-animate-on-scroll'
-import './AboutMe.css'
 import 'animate.css/animate.min.css'
+import profilePicture from '../images/profile1-copy.jpg'
+import './AboutMe.css'
+
 
 
 
@@ -12,7 +14,7 @@ export default class AboutMe extends Component {
             <div>
                 <h1 className="about-title">About Me</h1>
                 <div className='about-me-container'>
-                    <img className='profile-pic' src='./images/profile1-copy.jpg' alt='profile' />
+                    <img className='profile-pic' src={profilePicture} />
 
                     <ScrollAnimation
                         className='animate-wrapper'
