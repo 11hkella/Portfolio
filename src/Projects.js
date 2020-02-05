@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-
 import ProjectPiece from './ProjectPiece.js'
-
 import './Projects.css'
 
 export default class Projects extends Component {
