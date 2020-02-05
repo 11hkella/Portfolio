@@ -4,7 +4,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    background-image: url('https://media.giphy.com/media/3kuPC4N7ojo6zq6lQW/giphy.gif');
+    background-image: url('./Hero-bg.webp');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center bottom;
