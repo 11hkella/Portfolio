@@ -5,11 +5,9 @@ import profilePicture from '../images/profile1-copy.jpg'
 import './AboutMe.css'
 
 
-
-
 export default class AboutMe extends Component {
+
     render() {
-        const delay = this.props.multiplier * 100
         return (
             <div>
                 <h1 className="about-title">About Me</h1>
@@ -18,8 +16,7 @@ export default class AboutMe extends Component {
 
                     <ScrollAnimation
                         className='animate-wrapper'
-                        animateIn="fadeIn"
-                        delay={delay}>
+                        animateIn="fadeIn">
                         <div className="wrapper">
                             <p className='about'>
                                 <span>Hi there!</span><br />

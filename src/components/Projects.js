@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 import ProjectPiece from './ProjectPiece.js'
 import './Projects.css'
+import flowstateImg from '../images/Flowstate.png'
+import wheelOfChoresImg from '../images/WheelOfChores.png'
+import sideBImg from '../images/SideB.png'
+import emojiCamImg from '../images/EmojiCam.png'
+
 
 export default class Projects extends Component {
 
@@ -12,7 +17,7 @@ export default class Projects extends Component {
                 <div className='project-container' >
 
                     <ProjectPiece
-                        source='images/Flowstate.png'
+                        source={flowstateImg}
                         title='Flowstate'
                         description=' is a clone of the popular memory game "Simon", which tests the player&apos;s ability to remember increasingly long sequences of inputs.'
                         technologies={['HTML5', 'CSS', 'Javascript']}
@@ -20,7 +25,7 @@ export default class Projects extends Component {
                         webLink='https://flowstate.netlify.com/' />
 
                     <ProjectPiece
-                        source='images/WheelOfChores.png'
+                        source={wheelOfChoresImg}
                         title='Wheel of Chores'
                         description=' is a scheduling app that helps groups of users assign and accomplish tasks.'
                         technologies={['MongoDB', 'Express', 'Handelbars', 'Node']}
@@ -30,7 +35,7 @@ export default class Projects extends Component {
 
 
                     <ProjectPiece
-                        source='images/SideB.png'
+                        source={sideBImg}
                         title='Side B'
                         description=' is music reviewing app that allows users to post opinion pieces about their favorite albums, songs, or artists. Write a review yourself, or engauge in a dialogue over the music you are passionate about.'
                         technologies={['MongoDB', 'Express', 'React', 'Node']}
@@ -38,7 +43,7 @@ export default class Projects extends Component {
                         webLink='https://b-side-review.herokuapp.com/' />
 
                     <ProjectPiece
-                        source='images/EmojiCam.png'
+                        source={emojiCamImg}
                         title='EmojiCam'
                         description=' is a video app that uses facial recognition and expression detection to automatically map various emojis to user&apos;s faces.'
                         technologies={['PostgreSQL', 'Django', 'React', 'Node']}
