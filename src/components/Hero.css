@@ -7,7 +7,7 @@
     background-image: url('../images/Hero-bg.webp');
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: center bottom;
+    background-position: center center;
     border-bottom: .2em solid #131313e3;
     border-top: .2em solid #131313e3;
 }
