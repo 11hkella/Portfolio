@@ -1,12 +1,12 @@
 .navbar{
     position: fixed;
-    top:12px;
-    left: 12px;
+    top: .6em;
+    left: .6em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #ffffffad;
-    border-radius: 6px;
+    background: #f5f0f09a;
+    border-radius: .4em;
     z-index: 1;
 }

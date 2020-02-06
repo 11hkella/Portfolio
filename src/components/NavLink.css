@@ -1,11 +1,17 @@
 .navLink img{
-    height: 40px;
-    width: 40px;
-    margin: 10px 10px;
+    height: 1.6em;
+    width: 1.6em;
+    margin: .4em .4em;
 }
 
 .navLink img:hover{
     transform: scale(1.1, 1.1);
     position: relative;
-    top: 2px;
+    top: .1em;
+}
+
+.navLink img:active{
+    transform: scale(1, 1);
+    position: relative;
+    top: 0;
 }
