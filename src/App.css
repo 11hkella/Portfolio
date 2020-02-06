@@ -1,5 +1,6 @@
 .App {
   text-align: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #131313e3;
+  background-color: #f5f0f0;
 }

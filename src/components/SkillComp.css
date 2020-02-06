@@ -1,11 +1,14 @@
 .skill-comp-container{
-    width: 10em;
-    height: 10em;
-    border-radius: 50%;
-    background-color: #09e6d3;
+    width: 6em;
+    height: 6em;
+    background-color: #f5f0f0;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3em;
-    border: .3em double #131313e3;
+    margin: 0;
+    border: .2em double #131313e3;
+    transform: skew(-10deg)
+}
+.skill-comp-container h2{
+    font-size: 1em;
 }

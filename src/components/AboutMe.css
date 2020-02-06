@@ -1,7 +1,7 @@
 .about-title{
     text-align: center;
-    color: #f5f2e6;
-    background-color: #0a0a0a;
+    color: #f3f2f2;
+    background-color: #1d1d1d;
     margin: 0;
     padding: .8em;
     font-size: 1.8em;
@@ -20,30 +20,22 @@
     border: .1em solid #131313e3;
     width: 12em;
     margin: 1em 0 1.4em 0;
-    box-shadow: rgba(173, 173, 173, 0.767) -.1em .1em;
-}
-.about-me-container .animate-wrapper{
-    display: flex;
-    justify-content: center;
+    box-shadow: #adadad57 -.1em .1em;
 }
 .about-me-container .wrapper{
     width: 75%;
-    background-color: #61cdf781;
-    margin: 0;
-    border-radius: 1em;
-    border: .1em solid #131313e3;
-    box-shadow: rgba(173, 173, 173, 0.767) -.1em .1em;
-    
+    margin-bottom: 2em;
 }
 .about-me-container .about span{
     font-weight: 500;
+    line-height: 2em;
     font-size: 1.1em;
 }
 .about-me-container p.about{
-    margin: .6em 1.8em;
+    margin: 1em 1.8em;
     font-weight: 400;
     font-size: .9em;
     text-align: left;
-    line-height: 1.3em;
+    line-height: 1.6em;
     color: #131313e3;
 }

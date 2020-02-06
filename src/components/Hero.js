@@ -13,7 +13,7 @@ export default class Hero extends Component {
                     className='labels'
                     animateIn="fadeIn"
                     animateOut="fadeOut"
-                    delay={300}>
+                    delay={100}>
 
                     <p>&#8592; LinkedIn</p>
                     <p>&#8592; GitHub</p>
@@ -26,8 +26,9 @@ export default class Hero extends Component {
                 <ScrollAnimation
                     className='title'
                     animateIn="slideInLeft"
-                    animateOnce={true}
-                    delay={800}>
+                    animateOut="slideOutLeft"
+                    delay={400}
+                    offset={70}>
                     <h1>Henry Kellam</h1>
                     <h3>Software Developer</h3>
                 </ScrollAnimation>

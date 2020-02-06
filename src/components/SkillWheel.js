@@ -17,6 +17,9 @@ export default class SkillWheel extends Component {
       'MongoDB',
       'PostgreSQL',
       'Django',
+      'GitHub',
+      'AWS',
+      'Cypress'
     ],
   }
 
@@ -24,9 +27,8 @@ export default class SkillWheel extends Component {
     return (
       <div className='skill-container'>
 
-        <div className='title'>
-          <h1>Skills...</h1>
-        </div>
+
+        <h1 className='title'>Skills...</h1>
 
         <div className='all-skills-conatiner'>
           {this.state.skills.map((skill, i) => {
