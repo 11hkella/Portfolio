@@ -37,11 +37,12 @@
 }
 .about-me-container .about span{
     font-weight: 500;
+    font-size: 1.1em;
 }
 .about-me-container p.about{
     margin: .6em 1.8em;
     font-weight: 400;
-    font-size: 1em;
+    font-size: .9em;
     text-align: left;
     line-height: 1.3em;
     color: #131313e3;

@@ -16,7 +16,8 @@ export default class AboutMe extends Component {
 
                     <ScrollAnimation
                         className='animate-wrapper'
-                        animateIn="fadeIn">
+                        animateIn="fadeIn"
+                        animateOnce={true}>
                         <div className="wrapper">
                             <p className='about'>
                                 <span>Hi there!</span><br />
