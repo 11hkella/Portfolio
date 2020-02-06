@@ -12,7 +12,7 @@ export default class AboutMe extends Component {
             <div>
                 <h1 className="about-title">About Me</h1>
                 <div className='about-me-container'>
-                    <img className='profile-pic' src={profilePicture} />
+                    <img className='profile-pic' src={profilePicture} alt='profile' />
 
                     <div className="wrapper">
                         <p className='about'>
