@@ -1,9 +1,9 @@
 .project-piece-container{
-    width: 600px;
-    height: 375px;
+    width: 24.4em;
+    height: 14.8em;
     background-color: transparent;
-    perspective: 1000px;
-    margin: 10px 20px ;
+    perspective: 40em;
+    margin: 1em 0 ;
 }
 
 .flip-card{
@@ -24,25 +24,24 @@
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    border: 1px solid #050505;
-    border-radius: 4px;
+    border: .1em solid #050505;
+    border-radius: .2em;
     overflow: hidden;
-    box-shadow: rgb(255, 60, 35) -4px 4px;
+    box-shadow: #ff3c23 -.13em .14em;
 }
 
 .card-front img{
-    width: 600px;
-    height: 375px;
+    width: 24.4em;
 }
 
 .card-back img{
-    width: 54px;
-    height: 54px;
+    width: 2em;
+    height: 2em;
 }
 
 .card-back{
-    background-color: rgb(47, 47, 47);
-    color: rgb(238, 238, 238);
+    background-color: #1d1d1d;
+    color: #f3f2f2;
     transform: rotateY(180deg);
     transform: rotateX(180deg);
     display: flex;
@@ -52,11 +51,11 @@
 }
 
 .card-back p{
-    margin: 10px 20px;
+    margin: .8em 1.2em;
     text-align: left;
-    padding: 0 20px;
-    line-height: 32px;
-    font-size: 20px;
+    padding: 0 1.2em;
+    line-height: 1.2em;
+    font-size: .9em;
 }
 .description span{
     font-weight: 700;
@@ -68,11 +67,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0;
+    padding: .8em 0;
     background-color: #32df89ea;
     font-weight: 800;
-    text-shadow: #030303af -2px 2px;
-    font-size: 24px;
+    text-shadow: #1d1d1d -.07em .07em;
+    font-size: 1em;
 }
 
 .card-back .link-container{
@@ -84,12 +83,12 @@
 .card-back .link-container a{
     background-color: white;
     border-radius: 50%;
-    padding: 4px;
+    padding: .07em;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 40px;
-    border: 1px solid #32df89ea;
+    margin: 1em 2em;
+    border: .03em solid #32df89ea;
 }
 
 .card-back .link-container a:hover{

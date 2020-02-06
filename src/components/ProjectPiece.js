@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-
+import gitHubIcon from '../icons/github.png'
+import webLinkIcon from '../icons/link-24px.svg'
 import './ProjectPiece.css'
 
 
@@ -36,14 +37,14 @@ export default class ProjectPiece extends Component {
                             <a href={this.props.ghLink}
                                 target='blank'>
                                 <img
-                                    src='/icons/github.png'
+                                    src={gitHubIcon}
                                     alt='github' />
                             </a>
                             <a href={this.props.webLink}
                                 target='blank'>
                                 <img
-                                    src='/icons/link-24px.svg'
-                                    alt='github' />
+                                    src={webLinkIcon}
+                                    alt='website' />
                             </a>
                         </div>
                     </div>
