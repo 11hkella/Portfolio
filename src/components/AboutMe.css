@@ -14,17 +14,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 2.8em 1em 3.8em 1em;
 }
 .about-me-container .profile-pic{
     border-radius: 50%;
     border: .1em solid #131313e3;
     width: 12em;
-    margin: 1em 0 1.4em 0;
+    margin-bottom: 1em;
     box-shadow: #adadad57 -.1em .1em;
-}
-.about-me-container .wrapper{
-    width: 75%;
-    margin-bottom: 2em;
 }
 .about-me-container .about span{
     font-weight: 500;
@@ -32,10 +29,12 @@
     font-size: 1.1em;
 }
 .about-me-container p.about{
-    margin: 1em 1.8em;
+    margin-top: 1.2em;
     font-weight: 400;
     font-size: .9em;
     text-align: left;
     line-height: 1.6em;
     color: #131313e3;
+    width: 75%;
+    max-width: 800px;
 }

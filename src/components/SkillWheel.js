@@ -26,8 +26,6 @@ export default class SkillWheel extends Component {
   render() {
     return (
       <div className='skill-container'>
-
-
         <h1 className='title'>Skills...</h1>
 
         <div className='all-skills-conatiner'>
