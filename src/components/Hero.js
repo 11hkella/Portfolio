@@ -11,8 +11,8 @@ export default class Hero extends Component {
 
                 <ScrollAnimation
                     className='labels'
-                    animateIn="fadeIn"
-                    animateOut="fadeOut"
+                    animateIn="animate__fadeIn"
+                    animateOut="animate__fadeOut"
                     delay={100}>
 
                     <p>&#8592; LinkedIn</p>
