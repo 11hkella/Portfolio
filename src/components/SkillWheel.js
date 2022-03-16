@@ -9,6 +9,9 @@ export default class SkillWheel extends Component {
 
   state = {
     skills: [
+      'Sencha ExtJS',
+      'GraphQL',
+      'Typscript',
       'React',
       'Node.js',
       'CSS',
@@ -16,10 +19,9 @@ export default class SkillWheel extends Component {
       'Python',
       'MongoDB',
       'PostgreSQL',
-      'Django',
-      'GitHub',
-      'AWS',
-      'Cypress'
+      'Git',
+      'Cypress',
+      'Azure DevOps',
     ],
   }
 
