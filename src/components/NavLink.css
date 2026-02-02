@@ -1,17 +1,29 @@
-.navLink img{
-    height: 1.6em;
-    width: 1.6em;
-    margin: .4em .4em;
+.navLink a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit;
+}
+.navLink p {
+  transition: display 0.5s ease-in-out;
+  font-size: 16px;
 }
 
-.navLink img:hover{
-    transform: scale(1.1, 1.1);
-    position: relative;
-    top: .1em;
+.navLink img {
+  height: 1.6em;
+  width: 1.6em;
+  margin: 0.4em 0.4em;
 }
 
-.navLink img:active{
-    transform: scale(1, 1);
-    position: relative;
-    top: 0;
+.navLink img:hover {
+  transform: scale(1.1, 1.1);
+  position: relative;
+  top: 0.1em;
+}
+
+.navLink img:active {
+  transform: scale(1, 1);
+  position: relative;
+  top: 0;
 }

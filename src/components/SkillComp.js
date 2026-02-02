@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 
 import "./SkillComp.css";

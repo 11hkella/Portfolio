@@ -1,31 +1,31 @@
-.skill-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column ;
-    width: 100%;
+.skill-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
 
-.skill-container .title{
-    text-align: center;
-    color: #f3f2f2;
-    background-color: #1d1d1d;
-    margin: 0;
-    padding: .8em;
-    font-size: 1.8em;
-    letter-spacing: .5em;
-    width: 100%;
+.skill-container .title {
+  text-align: center;
+  color: #f3f2f2;
+  background-color: #1d1d1d;
+  margin: 0;
+  padding: 0.8em 0;
+  font-size: 1.8em;
+  letter-spacing: 0.5em;
+  width: 100%;
 }
 
-.all-skills-conatiner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 2.8em 1em 3.8em 1em;
-    background-image: url('../images/spray-paint.png');
-    background-size: contain;
-    background-position: center top;
-    background-repeat: no-repeat;
-    max-width: 1000px;
+.all-skills-conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2.8em 1em 3.8em 1em;
+  background-image: url("../images/spray-paint.png");
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  max-width: 1000px;
 }
