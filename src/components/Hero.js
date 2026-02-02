@@ -6,7 +6,7 @@ export default class Hero extends Component {
   render() {
     return (
       <div className="hero-container">
-        {/* TODO: animate title to slide in from the left */}
+        {/* TODO: animate title to slide in from the left. */}
         <div className="title">
           <h1>Henry Kellam</h1>
           <h3>
