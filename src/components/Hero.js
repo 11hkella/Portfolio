@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import ScrollAnimation from "react-animate-on-scroll";
+import { Component } from "react";
 import "animate.css/animate.min.css";
 import "./Hero.css";
 
@@ -7,29 +6,14 @@ export default class Hero extends Component {
   render() {
     return (
       <div className="hero-container">
-        {/* <ScrollAnimation
-                    className='labels'
-                    animateIn="animate__fadeIn"
-                    animateOut="animate__fadeOut"
-                    delay={100}>
-
-                    <p>&#8592; LinkedIn</p>
-                    <p>&#8592; GitHub</p>
-                    <p>&#8592; Resume PDF</p>
-                    <p>&#8592; Email</p>
-
-                </ScrollAnimation> */}
-
-        <ScrollAnimation
-          className="title"
-          animateIn="slideInLeft"
-          delay={400}
-          offset={70}
-          animateOnce={true}
-        >
+        {/* TODO: animate title to slide in from the left */}
+        <div className="title">
           <h1>Henry Kellam</h1>
-          <h3>Software Developer</h3>
-        </ScrollAnimation>
+          <h3>
+            Mid-Level Full-Stack Software Engineer | React, TypeScript, Node.js,
+            Cloud-Native Systems
+          </h3>
+        </div>
       </div>
     );
   }
