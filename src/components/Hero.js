@@ -23,9 +23,9 @@ export default class Hero extends Component {
         <ScrollAnimation
           className="title"
           animateIn="slideInLeft"
-          animateOut="slideOutLeft"
           delay={400}
           offset={70}
+          animateOnce={true}
         >
           <h1>Henry Kellam</h1>
           <h3>Software Developer</h3>
